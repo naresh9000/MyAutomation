@@ -1,0 +1,26 @@
+Consider the following prerequisite to understand the kind of prerequisites which may encounter at the time of testing:
+
+To Start a web driver
+Set up of Data Base connections
+Set up of test data
+Set up of browser cookies
+Navigation to a certain page
+Similarly, there are always some prerequisite steps which may encounter after testing:
+
+To stop the web driver
+To Close DB connections
+To Clear the test data
+To Clear browser cookies
+To Log out from the application
+Printing reports or logs
+Taking the screenshots of error
+In order to handle these types of conventional prerequisite steps, using cucumber hook is the best option.
+
+Hook Annotations
+Unlike TestNG Annotations, the cucumber supports only two hooks:
+
+@Before
+@After
+
+
+Hooks in the cucumber are like listeners in the tstng
